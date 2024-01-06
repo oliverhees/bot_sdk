@@ -36,6 +36,14 @@ const dashboard = {
             breadcrumbs: true
         },
         {
+            id: 'tutorials',
+            title: 'Tutorials',
+            type: 'item',
+            url: '/tutorials',
+            icon: icons.IconTool,
+            breadcrumbs: true
+        },
+        {
             id: 'assistants',
             title: 'Assistants',
             type: 'item',
