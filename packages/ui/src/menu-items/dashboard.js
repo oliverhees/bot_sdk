@@ -74,6 +74,14 @@ const dashboard = {
             url: '/apikey',
             icon: icons.IconKey,
             breadcrumbs: true
+        },
+        {
+            id: 'support',
+            title: 'Support',
+            type: 'item',
+            url: '/support',
+            icon: icons.IconKey,
+            breadcrumbs: true
         }
     ]
 }
