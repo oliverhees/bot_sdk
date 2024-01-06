@@ -1,8 +1,18 @@
 // assets
-import { IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable } from '@tabler/icons'
+import {
+    IconSchool,
+    IconHeadset,
+    IconHierarchy,
+    IconBuildingStore,
+    IconKey,
+    IconTool,
+    IconLock,
+    IconRobot,
+    IconVariable
+} from '@tabler/icons'
 
 // constant
-const icons = { IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable }
+const icons = { IconSchool, IconHeadset, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable }
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -21,7 +31,7 @@ const dashboard = {
         },
         {
             id: 'marketplaces',
-            title: 'Marketplaces',
+            title: 'Marktplatz',
             type: 'item',
             url: '/marketplaces',
             icon: icons.IconBuildingStore,
@@ -40,12 +50,12 @@ const dashboard = {
             title: 'Tutorials',
             type: 'item',
             url: '/tutorials',
-            icon: icons.IconTool,
+            icon: icons.IconSchool,
             breadcrumbs: true
         },
         {
             id: 'assistants',
-            title: 'Assistants',
+            title: 'Assistenten',
             type: 'item',
             url: '/assistants',
             icon: icons.IconRobot,
@@ -53,7 +63,7 @@ const dashboard = {
         },
         {
             id: 'credentials',
-            title: 'Credentials',
+            title: 'Zugänge',
             type: 'item',
             url: '/credentials',
             icon: icons.IconLock,
@@ -61,7 +71,7 @@ const dashboard = {
         },
         {
             id: 'variables',
-            title: 'Variables',
+            title: 'Variablen',
             type: 'item',
             url: '/variables',
             icon: icons.IconVariable,
@@ -80,7 +90,7 @@ const dashboard = {
             title: 'Support',
             type: 'item',
             url: '/support',
-            icon: icons.IconKey,
+            icon: icons.IconHeadset,
             breadcrumbs: true
         }
     ]
